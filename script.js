@@ -11,6 +11,7 @@ arr.map(PrintDeveloperbyMap);
 arr.forEach(PrintDeveloperbyForEach);
 addData();
 arr.filter(removeAdmin);
+console.log(arr);
 concatenateArray()
 
 function PrintDeveloperbyMap(e) {
@@ -44,7 +45,7 @@ function removeAdmin(e,i) {
     return arr.splice(i,1);
    }
 }
-console.log(arr);
+
 
 
 function concatenateArray() {
